@@ -1,0 +1,92 @@
+.back{
+    background: #00416A; 
+    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  
+    background: linear-gradient(to right, #E4E5E6, #00416A); 
+    height: 100vh;
+    width: 100%;
+}
+
+.back1{
+    background: #00416A;  
+    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  
+    background: linear-gradient(to right, #E4E5E6, #00416A); 
+    height: 100vh;
+    width: 100%;
+}
+
+.HHead{
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #023E7D;
+    text-decoration: underline;
+}
+
+.table-responsive-scroll {
+    overflow-x: auto;
+    margin: 10px auto;
+    max-width: 900px;
+}
+
+.tabe {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.tabe table {
+    width: 100%;    
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+}
+
+.tabe tr td {
+    border: solid 3px black;
+    padding: 5px;
+    background-color: #979DAC;
+    color: black;
+}
+
+.tabe th {
+    border: solid 3px black;
+    padding: 8px;
+    background-color: #33415C;
+    color: #979DAC;
+}
+
+.dust {
+    padding: 5px 10px;
+}
+
+.bin {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .HHead {
+        padding-top: 5px;
+    }
+    
+    .tabe {
+        margin: 0px 0px 0px 2%;
+    }
+    
+    .tabe table {
+        font-size: 0.8em;
+    }
+    
+    .tabe tr td {
+        border: solid 1px black;
+        padding: 0.5px;
+    }
+    
+    .tabe th {
+        border: solid 1px black;
+        padding: 2px;
+    }
+    
+    .dust {
+        width: 25px;
+        height: 25px;
+        padding: 0px;
+    }
+}

@@ -1,0 +1,52 @@
+.back5{
+    background: #00416A; 
+background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  
+background: linear-gradient(to right, #E4E5E6, #00416A); 
+    height: 100vh;
+    width: 100%;
+}
+
+.Hexp{
+    padding-top:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #023E7D;
+    text-decoration: underline;
+}
+
+.sel{
+    display: block;
+    justify-self: center;
+    padding: 5px;
+    width: 50%;
+    border:solid 5px  #023E7D;
+    border-radius: 10px;
+}
+.sel:hover{
+    border:solid 5px #0466C8;
+}
+.sel:active{
+    border:solid 5px #0466C8;
+}
+.sel:focus{
+    border:solid 5px #0466C8;
+    outline: none;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+div input{
+    margin: 40px;
+
+}
+
+.hide{
+    margin-top: 40px;
+}
+.submit{
+
+    width: 50%;
+}
